@@ -33,6 +33,7 @@ public class TestFiguras {
 			Assert.assertEquals(4.8, cuadrado.obtenerPerimetro(), 0.1);
 		}
 		
+		
 		@Test
 		public void testAreaCirculo() {
 			Circulo miCirculo = new Circulo(1.2);
